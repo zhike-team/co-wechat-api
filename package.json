@@ -1,15 +1,16 @@
 {
-  "name": "co-wechat-api",
+  "name": "@zhike/co-wechat-api",
   "version": "3.10.0",
   "description": "微信公共平台Node库API，ES6版本",
   "main": "index.js",
   "scripts": {
+    "postversion": "git push && git push --tags",
     "test": "make test-all",
     "test-file": "mocha -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-webot/co-wechat-api.git"
+    "url": "git@github.com:zhike-team/co-wechat-api.git"
   },
   "keywords": [
     "weixin",

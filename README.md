@@ -2,11 +2,7 @@ Wechat API(ES6版)
 ===========
 微信公共平台API。
 
-## 模块状态
-- [![NPM version](https://badge.fury.io/js/co-wechat-api.png)](http://badge.fury.io/js/co-wechat-api)
-- [![Build Status](https://travis-ci.org/node-webot/co-wechat-api.png?branch=master)](https://travis-ci.org/node-webot/co-wechat-api)
-- [![Dependencies Status](https://david-dm.org/node-webot/co-wechat-api.png)](https://david-dm.org/node-webot/co-wechat-api)
-- [![Coverage Status](https://coveralls.io/repos/node-webot/co-wechat-api/badge.png)](https://coveralls.io/r/node-webot/co-wechat-api)
+**此项目 Fork 自[原作者项目](https://github.com/node-webot/co-wechat-api)，原因是微信公众平台添加了一些新的接口，找其他包要考虑历史兼容性问题，于是决定在此包上扩展，由于仅针对内部使用，所以可能不够完善，将来也不会合回主项目**
 
 ## 功能列表
 - 发送客服消息（文本、图片、语音、视频、音乐、图文）
@@ -29,8 +25,6 @@ Wechat API(ES6版)
 - 摇一摇周边
 
 详细参见[API文档](http://doxmate.cool/node-webot/co-wechat-api/api.html)
-
-企业版本请前往：<https://github.com/node-webot/wechat-enterprise>
 
 ## Installation
 
@@ -64,57 +58,7 @@ var api = new API('appid', 'secret', async function () {
 });
 ```
 
-## Show cases
-### Node.js API自动回复
-
-![Node.js API自动回复机器人](http://nodeapi.diveintonode.org/assets/qrcode.jpg)
-
-欢迎关注。
-
-代码：<https://github.com/JacksonTian/api-doc-service>
-
-你可以在[CloudFoundry](http://www.cloudfoundry.com/)、[appfog](https://www.appfog.com/)、[BAE](http://developer.baidu.com/wiki/index.php?title=docs/cplat/rt/node.js)等搭建自己的机器人。
-
 ## 详细API
 原始API文档请参见：[消息接口指南](http://mp.weixin.qq.com/wiki/index.php?title=消息接口指南)。
 ## License
 The MIT license.
-
-## 交流群
-QQ群：157964097，使用疑问，开发，贡献代码请加群。
-
-## 感谢
-感谢以下贡献者：
-
-```
-
- project  : co-wechat-api
- repo age : 2 years, 6 months
- active   : 37 days
- commits  : 109
- files    : 50
- authors  :
-    75  Jackson Tian  68.8%
-     7  肥鼠          6.4%
-     6  magicxie      5.5%
-     3  马剑          2.8%
-     2  TimZhang      1.8%
-     2  Ziyi Yan      1.8%
-     2  ken           1.8%
-     2  Lei           1.8%
-     2  pillarhou     1.8%
-     2  sunwf         1.8%
-     1  Jichao Wu     0.9%
-     1  HelloYou      0.9%
-     1  swfbarhr      0.9%
-     1  ladjzero      0.9%
-     1  三点          0.9%
-     1  mukaiu        0.9%
-
-```
-
-## 捐赠
-如果您觉得Wechat对您有帮助，欢迎请作者一杯咖啡
-
-![捐赠wechat](https://cloud.githubusercontent.com/assets/327019/2941591/2b9e5e58-d9a7-11e3-9e80-c25aba0a48a1.png)
-
